@@ -1,0 +1,6 @@
+body {
+    background: $color-fondo;  /* fallback for old browsers */
+    background: $gradient;  /* Chrome 10-25, Safari 5.1-6 */
+    background: $gradient-dos; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
