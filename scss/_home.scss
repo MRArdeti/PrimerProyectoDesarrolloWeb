@@ -1,0 +1,67 @@
+.habitos__lista {
+    padding-top: 35px;
+    text-align: center;
+
+    .habitos__lista--titulo {
+        font-size: 550%;
+        font-family: "Brush Script MT", cursive;
+        color:black;
+        text-shadow: 3px 3px 3px #8be993;
+    }
+}
+
+.section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 80% 80%;
+
+
+    .seccion__tips {
+    margin-top: 50px;
+    text-align: left; 
+
+        .seccion__tips--fotos {
+        display: grid;
+        width: 70%;
+        height: 110%;
+        margin-left: 20px; 
+        }
+    }
+}
+.tipsTexto {
+    margin: 100px 10px 10px 0px;
+    text-align: center;
+    font-size: large;
+    font-family: $tipografia;
+}
+
+@media screen and (max-width: 768px) {
+    .section{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 10% auto auto ;
+        margin-top: 5%;
+
+        .seccion__tips {
+            display: grid;
+            text-align: left;
+
+            .seccion__tips--fotos {
+                display: grid;
+                width: 0%;
+                height: 0%;
+            }    
+        }
+    }
+
+    .tipsTexto {
+        display: grid;
+        grid-row-gap: 10%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        text-align: center;
+        font-size: x-large;
+        font-family: $tipografia;
+    }
+
+}

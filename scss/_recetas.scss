@@ -1,0 +1,57 @@
+.receta {
+    display: grid; 
+
+    .recetaTexto {
+        display: grid;
+        font-size: xx-large;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left: 10px;
+        
+            .ingredientes {
+             display: grid;
+             text-align: center;
+             font-size: large;
+             margin-bottom: 30px;
+            }
+        }
+    }
+    
+
+.preparacion {
+    display: grid;
+    margin-top: 30px;
+    text-align:center;
+    font-size: large;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) { 
+    .receta {
+        display: grid; 
+    
+        .recetaTexto {
+            display: grid;
+            font-size: xx-large;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-left: 10px;
+            
+                .ingredientes {
+                 display: grid;
+                 text-align: center;
+                 font-size: large;
+                 margin-bottom: 30px;
+                }
+            }
+        }
+        
+    
+    .preparacion {
+        display: grid;
+        margin-top: 30px;
+        text-align:center;
+        font-size: large;
+        margin-bottom: 50px;
+    }
+
+
+}
