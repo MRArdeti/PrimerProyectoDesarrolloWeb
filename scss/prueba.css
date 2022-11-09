@@ -3,7 +3,12 @@ body {
   background: linear-gradient(to top, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.footer {
+.objetivo__p {
+  margin-top: 15%;
+  text-align: center;
+  font-size: medium;
+}
+.objetivo__p footer {
   width: 100%;
   height: 100%;
   display: grid;
@@ -11,7 +16,7 @@ body {
   grid-template-rows: 100% 100% 100%;
   background-color: #A1FFCE;
 }
-.footer h4 {
+.objetivo__p footer:h4 {
   font-size: medium;
 }
 
@@ -21,13 +26,13 @@ body {
   justify-content: center;
   height: 40px;
 }
-.redes img {
+.redes .img {
   margin: 0px 10px 0px 10px;
   width: 40px;
   height: 40px;
   transition: all 0.3s;
 }
-.redes img .redes:hover {
+.redes .img:hover {
   transform: scale(1.3) translateY(-1%);
 }
 
@@ -99,12 +104,6 @@ body {
     font-family: "Times New Roman", Times, serif;
   }
 }
-.objetivo__p {
-  margin-top: 15%;
-  text-align: center;
-  font-size: medium;
-}
-
 /* contacto */
 .titulo-contacto {
   display: grid;
